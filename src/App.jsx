@@ -1,14 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './Components/Home'
-import Resume from './Components/Resume'
-import Portfolio from './Components/Portfolio'
+import Home from './pages/Home'
+import Resume from  './pages/Resume'
+import Portfolio from './pages/Portfolio'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
+// let counter = 10
 
+// setTimeout(() => {
+//   document.querySelector('#counter').textContent = counter
+//   counter --
+
+// }, 1000)
  const renderPage = () => {
    if(currentPage === 'Home') {
      return <Home />

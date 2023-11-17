@@ -13,3 +13,14 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+// export default function Home(){
+//     reutrn (
+//         <>
+//         <About/>
+//         <Upbringing/>
+//         </>
+//     )
+// }
