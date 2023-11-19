@@ -1,11 +1,13 @@
 import React from "react";
-import Nav from "./Nav";
+import NavTop from "./Nav";
+import Nav from 'react-bootstrap/Nav';
 
 const Header = ({ currentPage, handlePageChange }) => {
     return (
         <header> 
             <h1>Nysa Trejo</h1>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <NavTop currentPage={currentPage} handlePageChange={handlePageChange} />
+
         </header>
     )
 }
