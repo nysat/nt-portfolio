@@ -11,7 +11,7 @@ export default function ProjectCard({title, description}) {
             <Card.Text>{description}</Card.Text>
             </Card.Body>
 
-            <Button style={{color: 'purple', backgroundColor: 'hotpink'}}>Link to Page</Button>
+            <Button style={{backgroundColor: '#646cffaa'}}>Link to Page</Button>
         </Card>
         </>
     )

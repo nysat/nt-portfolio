@@ -47,9 +47,14 @@
 }
 
 .h1 {
-  font-size: 2em;
+  text-align: center;
   margin-bottom: 0.5em;
   border-bottom-color: #646cffaa;
-
+  border-bottom-style: solid;
 }
 
+.Footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}

@@ -1,11 +1,14 @@
 import { useState } from 'react'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/lux/bootstrap.min.css';
+import './App.css'
 import Home from './pages/Home'
 import Resume from  './pages/Resume'
 import Portfolio from './pages/Portfolio'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
+import Footer from './Components/footer'
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -39,6 +42,7 @@ function App() {
         <main>
           {renderPage()}
         </main>
+        <Footer />
       </>
     );
 }

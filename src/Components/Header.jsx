@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 const Header = ({ currentPage, handlePageChange }) => {
     return (
         <header> 
-            <h1>Nysa Trejo</h1>
+            <h1 className="h1">Nysa Trejo</h1>
             <NavTop currentPage={currentPage} handlePageChange={handlePageChange} />
 
         </header>
